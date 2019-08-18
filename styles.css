@@ -1,0 +1,350 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top, black 100%, blue 50%);
+}
+#sun
+{
+    width: 1px;
+    height: 1px;
+    animation-name: sun;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    -webkit-animation-name: sun;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-delay: 9s;
+    z-index: 3;
+}
+img
+{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+    z-index: 2;
+    -webkit-animation-name: showup;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-fill-mode: backwards;
+    -webkit-animation-direction: reverse-alternate;
+}
+#cos
+{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+    z-index: 1;
+    background-color: black;
+    border-radius: 50%;
+    animation-name: blysk;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    -webkit-animation-name: blysk;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count:infinite;
+    animation-direction: alternate; 
+    -webkit-animation-direction: alternate;
+    -webkit-animation-delay: 10s;
+}
+#cos2
+{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50.5%;
+    left: 50.5%;
+    margin-left: -200px;
+    margin-top: -200px;
+    z-index: 1;
+    background-color: black;
+    border-radius: 50%;
+    animation-name: blysk;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    -webkit-animation-name: blysk;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count:infinite;
+    animation-direction: alternate; 
+    -webkit-animation-direction: alternate;
+    -webkit-animation-delay: 10s;
+}
+.smallstar1
+{
+    width: 0px;
+    height: 0px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    animation-name: bigger;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay; 10.2s;
+    -webkit-animation-name: bigger;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-delay: 10.2s
+}
+.smallstar2
+{
+    width: 0px;
+    height: 0px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 80%;
+    right: 20%;
+    animation-name: bigger;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay; 10.4s;
+    -webkit-animation-name: bigger;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-delay: 10.4s
+}
+.smallstar3
+{
+    width: 0px;
+    height: 0px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    right: 25%;
+    animation-name: bigger;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay; 10.6s;
+    -webkit-animation-name: bigger;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-delay: 10.6s;
+}
+.smallstar3
+{
+    width: 0px;
+    height: 0px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    right: 25%;
+    animation-name: bigger;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay; 10.8s;
+    -webkit-animation-name: bigger;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-delay: 10.8s;
+}
+.smallstar4
+{
+    width: 0px;
+    height: 0px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    animation-name: bigger;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay; 11s;
+    -webkit-animation-name: bigger;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-delay: 11s;
+}
+.smallstar5
+{
+    width: 0px;
+    height: 0px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 095%;
+    left: 5%;
+    animation-name: bigger;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay; 11.2s;
+    -webkit-animation-name: bigger;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-delay: 11.2s;
+}
+.smallstar6
+{
+    width: 0px;
+    height: 0px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 95%;
+    left: 55%;
+    animation-name: bigger;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay; 11.4s;
+    -webkit-animation-name: bigger;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-delay: 11.4s;
+}
+.smallstar7
+{
+    width: 0px;
+    height: 0px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 55%;
+    animation-name: bigger;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay; 11.6s;
+    -webkit-animation-name: bigger;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-delay: 11.6s;
+}
+.smallstar8
+{
+    width: 0px;
+    height: 0px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    animation-name: bigger;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay; 11.8s;
+    -webkit-animation-name: bigger;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-delay: 11.8s;
+}
+.smallstar9
+{
+    width: 0px;
+    height: 0px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 55%;
+    right: 5%;
+    animation-name: bigger;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay; 12s;
+    -webkit-animation-name: bigger;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-delay: 12s;
+}
+.smallstar10
+{
+    width: 0px;
+    height: 0px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    animation-name: bigger;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay; 12.2s;
+    -webkit-animation-name: bigger;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-delay: 12.2s;
+}
+@keyframes bigger
+{
+    0% { width: 5px; height: 5px; box-shadow: none; opacity: 0;}
+    100% { width: 15px; height: 15px; box-shadow: 0px 5px 100px 10px white; opacity: 1;}
+}
+@-webkit-keyframes bigger
+{
+    0% { width: 5px; height: 5px; box-shadow: none; opacity: 0;}
+    100% { width: 15px; height: 15px; box-shadow: 0px 5px 100px 10px white; opacity: 1;}
+}
+@keyframes showup
+{
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+@-webkit-keyframes showup
+{
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+@keyframes blysk
+{
+    0% { box-shadow: none; }
+    100% { box-shadow: 0px 5px 50px 10px white; }
+}
+@-webkit-keyframes blysk
+{
+    0% { box-shadow: none; }
+    100% { box-shadow: 0px 5px 50px 10px white; }
+}
+@keyframes jasno
+{
+    0% { opacity: 0.6; }
+    100% { opacity: 1; }
+}
+@-webkit-keyframes jasno
+{
+    0% { opacity: 0.6; }
+    100% { opacity: 1; }
+}
+@keyframes sun
+{
+    0% { box-shadow: none; z-index: 3; }
+    100%{ box-shadow: 10px 0px 1000px 300px #fbac13; z-index: 10; }
+}
+@-webkit-keyframes sun
+{
+    0% { box-shadow: none; z-index: 3; }
+    100%{ box-shadow: 10px 0px 1000px 300px #fbac13; z-index: 10; }
+}
